@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Registro</h1>
+            <ul>
+            <a href="../index.html">Inicio |</a>
+            <a href="./alojamientos.html">Alojamientos |</a>
+            <a href="./contacto.html">contacto |</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Crear tu cuenta</h2>
+        <fieldset>
+            <legend>Datos del usuario</legend>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" name="nombre" type="text" required id="nombre" placeholder="Ingresa tu nombre">
+    
+                <label for="email">Email:</label>
+                <input type="email" name="email" type="email" required id="email" placeholder="Ingresa tu email">
+    
+                <label for="password">Password:</label>
+                <input type="password" name="password" type="password" required id="password" placeholder="Ingresa tu contraseña">
+    
+                <label for="terminos">
+                    <input type="checkbox" name="terminos" type="checkbox" required id="terminos"> Acepto términos y condiciones
+                </label>
+    
+                <button type="submit">Registrarme</button>
+            </form>
+        </fieldset>
+    </main>
+</html>
